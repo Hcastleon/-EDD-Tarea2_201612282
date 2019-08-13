@@ -1,0 +1,35 @@
+digraph H {
+ label="Mapeo lexicografico"
+ node [shape=plaintext]
+ 
+	subgraph cluster_0 {
+	 label="Matriz"
+ some_node0 [ 
+ label=<
+		<table border="0" cellborder="1" cellspacing="0">
+		<tr>
+		<td bgcolor="#FFF8DC">(0,0)</td>
+		<td bgcolor="#FF5733">(0,1)</td>
+</tr>
+		<tr>
+		<td bgcolor="#FFF8DC">(1,0)</td>
+		<td bgcolor="#FFF8DC">(1,1)</td>
+</tr>
+</table>>
+];
+}
+	subgraph cluster_1 {
+	 label="Arreglo linealizado"
+ some_node1 [ 
+ label=<
+		<table border="0" cellborder="1" cellspacing="0">
+		<tr>
+		<td bgcolor="#B0E0E6">(0)</td>
+		<td bgcolor="#B0E0E6">(1)</td>
+		<td bgcolor="#6495ED">(2)</td>
+		<td bgcolor="#B0E0E6">(3)</td>
+</tr>
+</table>>
+];
+}
+}
